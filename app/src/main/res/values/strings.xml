@@ -1,6 +1,7 @@
 <resources>
-    <string name="app_name">My Application</string>
-    <string name="button_query">Query</string>
-    <string name="error_message_query_pm25">Please try again</string>
+    <string name="app_name">PM2.5监测</string>
+    <string name="button_query">查询</string>
+    <string name="error_message_query_pm25">搜索失败请重新输入</string>
     <string name="loading_message">Loading</string>
+    <string name="button_back">重新查询</string>
 </resources>

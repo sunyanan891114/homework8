@@ -3,4 +3,10 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="grade1">#EFD205</color>
+    <color name="grade2">#FF881C</color>
+    <color name="grade3">#FE9D01</color>
+    <color name="grade4">#BD7803</color>
+    <color name="grade5">#712704</color>
+
 </resources>

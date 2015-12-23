@@ -1,5 +1,7 @@
 package com.thoughtworks.myapplication.service;
 
+import android.util.Log;
+
 import com.squareup.okhttp.OkHttpClient;
 import com.thoughtworks.myapplication.domain.PM25;
 
@@ -14,7 +16,7 @@ import retrofit.Retrofit;
 public class AirServiceClient {
 
     private static final String BASE_URL = "http://www.pm25.in";
-    private static final String TOKEN = "";
+    private static final String TOKEN = "4esfG6UEhGzNkbszfjAp";
 
     private static AirServiceClient instance;
     private final AirService airService;

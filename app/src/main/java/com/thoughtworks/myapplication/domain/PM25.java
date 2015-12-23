@@ -8,6 +8,26 @@ public class PM25 {
 
     @SerializedName("quality")
     private String quality;
+    @SerializedName("aqi")
+    private String aqi;
+    @SerializedName("area")
+    private String area;
+
+    public String getArea() {
+        return area;
+    }
+
+    public void setArea(String area) {
+        this.area = area;
+    }
+
+    public String getAqi() {
+        return aqi;
+    }
+
+    public void setAqi(String aqi) {
+        this.aqi = aqi;
+    }
 
     public String getPositionName() {
         return positionName;

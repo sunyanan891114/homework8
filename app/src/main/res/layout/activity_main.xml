@@ -2,22 +2,21 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/sky">
 
     <EditText
+        android:paddingTop="100dp"
         android:id="@+id/edit_view_input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Please input city name" />
+        android:hint="输入搜索城市名" />
 
-    <TextView
-        android:id="@+id/text_view_pm25"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
 
     <Button
         android:id="@+id/button_query_pm25"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/button_query" />
+        android:text="@string/button_query"
+        android:layout_gravity="center_horizontal" />
 </LinearLayout>
